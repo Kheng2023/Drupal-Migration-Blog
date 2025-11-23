@@ -2,6 +2,8 @@
 
 In this section, we will look at creating Content Types, Fields, and navigating the migration interface.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OcK0jwYdXEo?si=gthbsgUUn7-fm6YN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 1. Installation
 
 Before starting to migrate, we first need to install the Drupal Core Migrate and 2 additional extensions:

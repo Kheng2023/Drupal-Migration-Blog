@@ -2,6 +2,8 @@
 
 Before we start, I want to cover some terminology and advice. This is based on my experience migrating for SAcommunity.org.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1UJCgPEAHOw?si=jXey2rAc3epeoOHS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Terminology
 
 Here are some frequently used terms I’m going to use:
