@@ -2,7 +2,15 @@
 
 In this section, we will look at creating Content Types, Fields, and navigating the migration interface.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OcK0jwYdXEo?si=gthbsgUUn7-fm6YN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe
+    src="https://www.youtube.com/embed/OcK0jwYdXEo?si=gthbsgUUn7-fm6YN"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
 
 ## 1. Installation
 
@@ -66,5 +74,5 @@ There are two methods to execute the migration:
 
 That’s all for today. I will teach more about different migration CLI commands and how to write the migration YAML in future guides\!
 
-[\< Back to Home](https://www.google.com/search?q=./index.md)
+[\< Back to Home](./index.md)
 

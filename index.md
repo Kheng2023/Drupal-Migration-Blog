@@ -19,5 +19,11 @@ These guides accompany my video series and serve as written documentation for th
     * Importing your YAML configuration.
     * Running migrations via UI vs CLI.
 
+* **[Part 3: Explaining the Parts of YAML Code](./03-yaml-structure.md)**
+    * Understanding the ETL structure (Source, Process, Destination).
+    * Essential configurations (id, label, group).
+    * How to configure the Source plugin to read JSON.
+    * Basic Process mapping and Destination settings.
+
 ---
 *More guides coming soon.*
