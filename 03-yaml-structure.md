@@ -2,6 +2,17 @@
 
 As promised in previous guides, this part is about understanding the parts of the Drupal migration YAML.
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe 
+    src="https://www.youtube.com/embed/OWZRkyHbYRs?si=lPW2ARZ9hiXGW563" 
+    title="YouTube video player"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+  </iframe>
+</div>
+
 ---
 
 ## The ETL Concept
@@ -64,8 +75,6 @@ source:
       * `selector`: The specific key in your JSON file.
   * **ids:** Specifically identifies which field makes each record unique (to avoid duplicates).
 
-> **Note:** I purposely made some errors in the YAML in the video to demonstrate debugging. Watch the video to see how we fix them\!
-
 ## 3\. Process (Transformation)
 
 This is where you will work the most—understanding plugins and mapping data.
@@ -112,5 +121,3 @@ destination:
 I will stop here as this is getting long\! In the next guide, I will show different migration commands, common mistakes I made, and how to debug them.
 
 [\< Back to Home](./index.md)
-
-```
