@@ -120,4 +120,4 @@ destination:
 
 I will stop here as this is getting long! In the next guide, I will show different migration commands, common mistakes I made, and how to debug them.
 
-[< Back to Home](./index.md)
+[< Back to Home](./README.md)
