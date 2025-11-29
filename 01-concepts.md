@@ -46,4 +46,4 @@ It’s optional software. Initially, I did not know why we were installing this,
 1.  **Understand sub-fields:** e.g., for a link-type field, there are subfields for the URI and another for the title.
 2.  **Verify success:** After I execute the migration, I will run a simple `SELECT * FROM [field_name]` SQL command to see if the table is populated.
 
-[< Back to Home](./index.md)
+[< Back to Home](./README.md)

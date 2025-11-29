@@ -27,7 +27,7 @@ composer require migrate_plus migrate_tools
 drush en migrate migrate_plus migrate_tools
 ```
 
-## 2\. Create Content Type & Fields
+## 2. Create Content Type & Fields
 
 To migrate data into Drupal, we first need to create a content type and the field where the data will be stored.
 
@@ -39,7 +39,7 @@ Let’s start by creating an **"Organisation"** content type with some sample fi
 
 *Note: I will be using some sample data of 5 random companies that I asked AI to create for me in JSON format.*
 
-## 3\. Importing your Migration YAML
+## 3. Importing your Migration YAML
 
 We need YAML code to migrate the data (I will explain the YAML details in the next guide). This step is about **where** to paste that code.
 
@@ -53,13 +53,13 @@ We need YAML code to migrate the data (I will explain the YAML details in the ne
 
 *Note: This is my prefered way of importing the migration YAML. I believe there are other methods to import migration but it was too confusing for me.*
 
-## 4\. How to Execute the Migration
+## 4. How to Execute the Migration
 
 There are two methods to execute the migration:
 
 ### Method A: The UI (User Interface)
 
-1.  Navigate to Drupal Admin: **Structure \> Migrations**.
+1.  Navigate to Drupal Admin: **Structure > Migrations**.
       * *Note: It may take a little while for the migration to appear; you can try to rebuild the cache.*
 2.  Click the **‘List Migration’** button.
 3.  Click the **‘Execute’** button.
@@ -73,7 +73,7 @@ There are two methods to execute the migration:
     ddev drush migrate:import [migration_id]
     ```
 
-That’s all for today. I will teach more about different migration CLI commands and how to write the migration YAML in future guides\!
+That’s all for today. I will teach more about different migration CLI commands and how to write the migration YAML in future guides!
 
-[\< Back to Home](./index.md)
+[< Back to Home](./README.md)
 

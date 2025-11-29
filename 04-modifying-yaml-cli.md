@@ -47,7 +47,7 @@ process:
     default_value: 'Visit Website'
 ```
 
-### 2\. Updating the Configuration (The Correct Way)
+### 2. Updating the Configuration (The Correct Way)
 
 If you try to simply re-import the updated YAML, you'll get an error: *"An entity with this machine name already exists but the import did not specify a UUID."*
 
@@ -55,7 +55,7 @@ This is because Drupal's configuration management system requires a **UUID (Univ
 
 #### 🔧 Method A: UI (Quickest for one change)
 
-1.  Go to **Drupal admin \> Configuration \> Development \> Configuration Synchronization**.
+1.  Go to **Drupal admin > Configuration > Development > Configuration Synchronization**.
 2.  Select the **Export** tab, then **Single item** tab.
 3.  Under the 'Configuration type' dropdown, select **migration**, and choose the migration you previously imported (e.g., `organisation_migration`).
 4.  The full migration YAML configuration, **including the necessary UUID**, will appear in the box. Your can choose to copy the **entire block** or just the **UUID**.
@@ -77,7 +77,7 @@ This is because Drupal's configuration management system requires a **UUID (Univ
     ```
     (This ensures the YAML configuration is updated with the correct UUID.)
 
-## 3\. The Migration Execution Caveat (The `--update` Flag)
+## 3. The Migration Execution Caveat (The `--update` Flag)
 
 After updating the YAML, if you run a standard `migrate:import` command (or just click "Execute" in the UI), **nothing will happen** for previously imported items. The URL fields will not be imported.
 
@@ -86,7 +86,7 @@ Why? Drupal assumes items already successfully migrated are finished. To force i
   * **In UI:** Expand the **"Additional execution options"** and check the **"Update"** box.
   * **In CLI:** Use the **`--update`** flag.
 
-## 4\. Frequently Used CLI Migration Commands
+## 4. Frequently Used CLI Migration Commands
 
 All commands start with `ddev drush`. You can check the full documentation for flags here: [Drush Migrate Import Docs](https://www.drush.org/12.x/commands/migrate_import/).
 
@@ -98,6 +98,6 @@ All commands start with `ddev drush`. You can check the full documentation for f
 | `migrate:rollback [IDs]` | Reverts all or selected items migrated by the specified migration. | `--all`: Rollback all migrations. |
 | `migrate:messages [ID]` | Shows all error and success messages for the specified migration. | Mostly used for debugging to see why an import failed. |
 
-That’s all for this guide\! We now know how to manage and update our migration configuration and use the powerful command line tools.
+That’s all for this guide! We now know how to manage and update our migration configuration and use the powerful command line tools.
 
-[\< Back to Home](index.md)
+[< Back to Home](README.md)
