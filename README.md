@@ -25,5 +25,11 @@ These guides accompany my video series and serve as written documentation for th
     * How to configure the Source plugin to read JSON.
     * Basic Process mapping and Destination settings.
 
+* **[Part 4: Modifying Drupal Migration & Migration Commands](./04-modifying-yaml-cli.md)**
+    * How to add new fields to an existing migration.
+    * The "UUID error" and how to fix it (Export/Import workflow).
+    * Why your updates might not show up (The `--update` flag).
+    * Essential CLI commands: `migrate:status`, `migrate:rollback`, and `migrate:reset-status`.
+
 ---
 *More guides coming soon.*
