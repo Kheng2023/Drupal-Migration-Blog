@@ -1,4 +1,5 @@
 # Part 3: Explaining the Parts of YAML Code
+*Published on: 24 Nov 2025*
 
 As promised in previous guides, this part is about understanding the parts of the Drupal migration YAML.
 

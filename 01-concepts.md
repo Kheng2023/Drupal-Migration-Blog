@@ -1,4 +1,5 @@
 # Part 1: Key Concepts and Advice
+*Published on: 23 Nov 2025*
 
 Before we start, I want to cover some terminology and advice. This is based on my experience migrating for SAcommunity.org.
 

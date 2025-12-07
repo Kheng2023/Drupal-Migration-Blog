@@ -1,4 +1,5 @@
 # Part 4: Modifying Drupal Migration and My Frequently Used Migration Commands
+*Published on: 29 Nov 2025*
 
 This guide covers how to update your existing migration configuration when you add new fields, and a breakdown of the essential command line interface (CLI) commands I use frequently.
 

@@ -1,4 +1,5 @@
 # Part 2: Let’s Get Started
+*Published on: 23 Nov 2025*
 
 In this section, we will look at creating Content Types, Fields, and navigating the migration interface.
 

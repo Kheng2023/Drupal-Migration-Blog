@@ -1,4 +1,5 @@
 # Part 5: 10 Process Plugins I Frequently Used
+*Published on: 7 Dec 2025*
 
 This guide is a factual reference for the Drupal Migration process plugins I used most frequently during the SAcommunity.org migration.
 
